@@ -1,20 +1,41 @@
 # My Coding Zone Session 2023
 
-## Subject: Error handling
+## Abstract: Strategien für den Umgang mit Fehlern
 
-I want to create a presentation which shows why error handling is important in C#. I also want to show the difference between static and dynamic languages. And include Railway-Oriented Programming (ROP) in the presentation.
+Eine effiziente Fehlerbehandlung ist ein entscheidender Aspekt bei der Softwareentwicklung, der die Zuverlässigkeit und Wartbarkeit von Softwareprodukten beeinflusst.
+In dieser Session möchte ich euch ein paar bewährte Strategien zeigen, die den Umgang mit Fehlern erleichtern. 
 
-Exceptions are "real" problems. Errors are "expected" problems. Errors are not exceptional. Exceptions are exceptional.
+Zudem werden wir uns Programmierparadigmen anschauen, die uns helfen, effektive und sichere Code-Strukturen zu schaffen, die sowohl lesbar als auch wartbar sind. Es geht darum, wie wir durch geschickte Datenmodellierung und die Nutzung spezieller Datenstrukturen die Robustheit unserer Anwendungen signifikant steigern können.
 
-Therefore... Exceptions should be exceptional.
+Auch wenn die Codebeispiele in .NET (C# und F#) sein werden: Die zugrundeliegenden Konzepte sind unabhängig von der Programmiersprache und können in vielen anderen Sprache angewendet werden.
 
-Create a dotnet solution with a lib and a test project. The lib project should have a class with a method that takes a string and returns a string. The method should throw an exception if the input string is null or empty. The test project should have a test that verifies that the method throws an exception if the input string is null or empty.
+## Themensammlung
 
-```sh
-dotnet new sln -n ErrorHandling
-dotnet new classlib -n ErrorHandling.Lib
-dotnet new xunit -n ErrorHandling.Test
-dotnet sln add ErrorHandling.Lib/ErrorHandling.Lib.csproj
-dotnet sln add ErrorHandling.Test/ErrorHandling.Test.csproj
-dotnet add ErrorHandling.Test/ErrorHandling.Test.csproj reference ErrorHandling.Lib/ErrorHandling.Lib.csproj
-```
+- Primitive Obsession vermeiden
+  - Typsystem nutzen (Klassen, records, enums, ...)
+  - Value Objects
+- Null vermeiden
+  - Nullability
+  - Null Object Pattern
+  - Optionals/Maybe
+- Exceptions
+  - Exceptions sind "echte" Probleme
+  - Exceptions sind "unerwartete" Probleme
+  - Exceptions sind "unvorhersehbar"
+- Workflow sollte Happy Path zeigen, 
+  - und nicht von Kontrollfluss unterbrochen werden. Beispiel für Unterbrechung des Kontrollflusses: 
+    - Exceptions, 
+    - Try/Catch, 
+    - If/Else, ... 
+  - Railway-Oriented Programming
+  - C# FP Libraries
+    - LanguageExt
+    - CSharpFunctionalExtensions
+    - LaYumba
+- Einführung in F#
+  - Immutable
+  - Pattern Matching
+  - Records
+  - Optionals/Maybe
+  - Railway-Oriented Programming
+  - FsToolkit.ErrorHandling
