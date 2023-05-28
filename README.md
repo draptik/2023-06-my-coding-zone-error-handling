@@ -39,3 +39,7 @@ Auch wenn die Codebeispiele in .NET (C# und F#) sein werden: Die zugrundeliegend
   - Optionals/Maybe
   - Railway-Oriented Programming
   - FsToolkit.ErrorHandling
+
+## Fragen ans Publikum
+
+- Mit welchen Sprachen arbeitet ihr?
