@@ -9,6 +9,10 @@ Zudem werden wir uns Programmierparadigmen anschauen, die uns helfen, effektive 
 
 Auch wenn die Codebeispiele in .NET (C# und F#) sein werden: Die zugrundeliegenden Konzepte sind unabhängig von der Programmiersprache und können in vielen anderen Sprache angewendet werden.
 
+## Bio
+
+Dr. Patrick Drechsler ist Software-Entwickler bei MATHEMA GmbH. Seine aktuellen Interessensgebiete sind Domain-Driven Design und Funktionale Programmierung. Man trifft Patrick auch häufig bei regionalen Software Crafting Events wie der Softwerkskammer.
+
 ## Themensammlung
 
 - Primitive Obsession vermeiden
