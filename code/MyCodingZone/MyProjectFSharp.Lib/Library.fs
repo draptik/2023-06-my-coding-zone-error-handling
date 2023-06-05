@@ -1,5 +1,4 @@
 ﻿namespace MyProjectFSharp.Lib
 
 module Say =
-    let hello =
-        "Hello World!"
+    let hello = "Hello World!"
