@@ -1,6 +1,6 @@
-using MyProject.Lib.ValueObjects;
+using MyProject.Lib.ValueObjects.MoneyExample;
 
-namespace MyProject.Tests.ValueObjects;
+namespace MyProject.Tests.ValueObjects.MoneyExample;
 
 public class MoneyTests
 {

@@ -1,4 +1,4 @@
-namespace MyProject.Lib.ValueObjects;
+namespace MyProject.Lib.ValueObjects.MoneyExample;
 
 public class MoneyCannotBeNegativeException : Exception
 {
