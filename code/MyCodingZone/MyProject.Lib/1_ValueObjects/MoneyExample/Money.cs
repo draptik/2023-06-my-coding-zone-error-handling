@@ -1,4 +1,4 @@
-namespace MyProject.Lib.ValueObjects.MoneyExample;
+namespace MyProject.Lib._1_ValueObjects.MoneyExample;
 
 public class Money
 {

@@ -1,4 +1,4 @@
-namespace MyProject.Lib.PrimitiveObsession;
+namespace MyProject.Lib._0_PrimitiveObsession;
 
 public class Person1
 {

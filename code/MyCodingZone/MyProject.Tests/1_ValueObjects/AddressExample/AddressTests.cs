@@ -1,6 +1,6 @@
-﻿using MyProject.Lib.ValueObjects.AddressExample;
+﻿using MyProject.Lib._1_ValueObjects.AddressExample;
 
-namespace MyProject.Tests.ValueObjects.AddressExample;
+namespace MyProject.Tests._1_ValueObjects.AddressExample;
 
 public class AddressTests
 {

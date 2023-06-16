@@ -1,6 +1,6 @@
-using MyProject.Lib.PrimitiveObsession;
+using MyProject.Lib._0_PrimitiveObsession;
 
-namespace MyProject.Tests.PrimitiveObsession;
+namespace MyProject.Tests._0_PrimitiveObsession;
 
 public class Person2Tests
 {

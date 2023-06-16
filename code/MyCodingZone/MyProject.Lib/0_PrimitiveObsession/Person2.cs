@@ -1,4 +1,4 @@
-namespace MyProject.Lib.PrimitiveObsession;
+namespace MyProject.Lib._0_PrimitiveObsession;
 
 // Person class should not have to validate age!
 public class Person2

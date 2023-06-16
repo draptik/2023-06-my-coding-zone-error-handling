@@ -1,4 +1,4 @@
-﻿namespace MyProject.Lib.ValueObjects.AddressExample;
+﻿namespace MyProject.Lib._1_ValueObjects.AddressExample;
 
 public class Address
 {
