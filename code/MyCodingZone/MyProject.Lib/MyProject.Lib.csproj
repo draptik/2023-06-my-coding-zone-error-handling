@@ -10,4 +10,8 @@
       <PackageReference Include="CSharpFunctionalExtensions" Version="2.39.2" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Folder Include="2_Rop\Example2\" />
+    </ItemGroup>
+
 </Project>
