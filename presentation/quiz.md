@@ -76,6 +76,3 @@ C) Wenn Sie eine komplexe sequentielle Verarbeitung durchführen, wobei jeder Sc
 D) Wenn Sie ein System mit starkem Fokus auf Benutzerinteraktion und grafischer Darstellung erstellen.
 
 Die richtige Antwort ist C.
-
-## Frage 8
-
